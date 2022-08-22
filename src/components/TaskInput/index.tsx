@@ -1,3 +1,5 @@
+import { AiOutlinePlusCircle } from 'react-icons/ai';
+
 import styles from './styles.module.scss'
 
 export function TaskInput() {
@@ -13,6 +15,7 @@ export function TaskInput() {
         //onClick={handleAddTask}
       >
         Add
+        <AiOutlinePlusCircle />
       </button>
     </form>
   )
