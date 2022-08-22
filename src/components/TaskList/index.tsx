@@ -1,6 +1,11 @@
+import { AiOutlineUnorderedList } from 'react-icons/ai';
+import { Task } from '../Task';
+
 import styles from './styles.module.scss';
 
-export function Tasks() {
+export function TaskList() {
+  const isTask = true;
+
   return (
     <section className={styles.container}>
 
@@ -19,7 +24,21 @@ export function Tasks() {
         </div>
       </div>
 
-      <div className={styles.tasksList}></div>
+      <div className={styles.tasksList}>
+
+      {
+        isTask
+        ? <Task />
+        : (
+          <div className={styles.emptyList}>
+          <AiOutlineUnorderedList size={56} />
+          <span>You don't have any tasks created.</span>
+          <p>Add tasks and organize your day!</p>
+        </div>
+        )
+      }
+        
+      </div>
 
     </section>
   )

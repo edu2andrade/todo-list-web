@@ -1,13 +1,13 @@
 import styles from './App.module.scss'
 import { TaskInput } from './components/TaskInput'
-import { Tasks } from './components/Tasks'
+import { TaskList } from './components/TaskList'
 
 export default function App() {
 
   return (
     <main className={styles.container}>
       <TaskInput />
-      <Tasks />
+      <TaskList />
     </main>
   )
 };
