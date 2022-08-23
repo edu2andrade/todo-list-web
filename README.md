@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Project Image" src="./assets/todo_project_image.png"/>
+  <img alt="Project Image" src="./src/assets/todo_project_image.png"/>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">  
 </p>
 
