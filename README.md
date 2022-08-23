@@ -68,4 +68,4 @@ This project is under [MIT License](./LICENSE).
 
 ## 👽 Author
 
-Made with 🤘 by [Eduardo Andrade](https://andradept.com/)
+Made by [Eduardo Andrade](https://andradept.com/) 🤘
