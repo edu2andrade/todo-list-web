@@ -1,6 +1,7 @@
+import { TaskDetails } from '../../App';
+
 import styles from './styles.module.scss';
 import { BsCircle, BsCheckCircleFill, BsTrash } from 'react-icons/bs';
-import { TaskDetails } from '../../App';
 
 interface TaskProps {
   task: TaskDetails;
