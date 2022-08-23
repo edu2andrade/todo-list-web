@@ -36,7 +36,7 @@ I follow this excellent guide: [Thinking in React](https://beta.reactjs.org/lear
 - [UUID](https://www.npmjs.com/package/uuid)
 
 
-### See live [here](https://github.com/edu2andrade/todo-list-web).
+### See live [here](https://todo-list-web-ten.vercel.app/).
 
 
 ## :octocat: How to test and install
